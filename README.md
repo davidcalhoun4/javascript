@@ -1,2 +1,2 @@
 # javascript
-- Deliberate practice working on javascript core programming
+- Deliberate practice on javascript core programming
