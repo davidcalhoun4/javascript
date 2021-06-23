@@ -43,9 +43,33 @@
 // letterCount("beast");
 
 // # 8. use a variable to store a number, then prints "That's a negative number" if the number is less than 0.
+// function isItNegative(num) {
+//   if (num < 0) {
+//     console.log("That's a negative number");
+//   } else {
+//     console.log("That is not a negative number");
+//   }
+// }
+// isItNegative(-1);
+// isItNegative(11);
 
 // # 9. use variables to store two numbers, then prints the two numbers multiplied together.
+// function multiplier(num1, num2) {
+//   let multiplied = num1 * num2;
+//   console.log(multiplied);
+// }
+// multiplier(1, 2);
+// multiplier(11, 2);
 
 // # 10. use a variable to store a word, then prints "That's a long word" if the word has more than 5 letters.
+function wordCounter(str) {
+  if (str.length > 5) {
+    console.log("That is a long word");
+  } else {
+    console.log("That is not a long word");
+  }
+}
+wordCounter("beansss");
+wordCounter("fish");
 
 // # SOLUTIONS: https://gist.github.com/peterxjang/1539a3ad79728ba4fb68dd8d07279c29
